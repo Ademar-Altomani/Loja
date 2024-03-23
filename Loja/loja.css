@@ -1,0 +1,58 @@
+body {
+	font-family: Arial;
+	padding: 10px;
+	background: #3e3edc;
+    
+}
+.header{
+    padding: 30px;
+	text-align: center;
+	background: rgb(7, 32, 161);
+	background-repeat: no-repeat;
+	background-size: cover;
+    border-radius: 25px;
+    
+	}
+.topnav{
+    overflow: hidden;
+	background-color: #4b4b4b; 
+    border-radius: 10px; 
+    justify-content: space-around;
+    display: flex;
+}
+.topnav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 20px 24px;
+	text-decoration: none;
+    text-align: center;
+   
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+p.compra{
+   border-radius: 10px;
+   border: 2px solid rgb(255, 0, 0);
+   padding: 2px;
+   text-align: center; 
+   color: white;
+   background-color: red;
+}
+p.descricao{
+    color: white;
+    font-size: 15px;
+}
+p.valor{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.
